@@ -1,0 +1,70 @@
+
+body{
+  
+    margin: auto;
+    background-color: rgb(214, 255, 255);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.container{
+    padding: 0rem 1rem;
+   
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.head{
+    background-color:#3FC1C9;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.first{
+    color: black;
+}
+.second{
+    color: red;
+}
+.third{
+    color: yellow;
+}
+textarea{
+    width: 80%;
+    min-height: 20vh;
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+}
+
+#btn-translate{
+    padding: 1rem 1.5rem;
+    margin-left: 2rem;
+    border-radius:0.5rem;
+    border: none;
+    background-color:#3FC1C9;
+}
+.trans-headding{
+   margin: 1rem;
+   font-weight: lighter;
+}
+
+#output-area{
+    border: 1px black solid;
+    width: 80%;
+    min-height:20vh;
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+}
+
